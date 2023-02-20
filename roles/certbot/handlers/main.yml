@@ -1,0 +1,4 @@
+---
+
+- name: get-first-cert
+  command: certbot certonly --standalone --agree-tos --register-unsafely-without-email --domain {{ domain }}

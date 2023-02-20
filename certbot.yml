@@ -1,0 +1,6 @@
+---
+- name: 'certbot configuring for Ubuntu or CentOS'
+  hosts: all
+  become: yes
+  roles:
+    - certbot
